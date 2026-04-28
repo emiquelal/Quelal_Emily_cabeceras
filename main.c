@@ -1,13 +1,12 @@
+#include "sumar.h"   
 #include <stdio.h>
-int main (int argc, char const *argv[]) 
-{
 
+int main(int argc, char const *argv[]) {
     int a, b;
-    printf("Ingrese 1er numero:");
+    printf("Ingrese 1er numero: ");
     scanf("%d", &a);
     printf("Ingrese 2do numero: ");
     scanf("%d", &b);
-    sumar(a,b);
+    sumar(a, b);
     return 0;
-
 }
