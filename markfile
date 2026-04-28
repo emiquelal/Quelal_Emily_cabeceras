@@ -1,0 +1,5 @@
+all:
+    gcc main.c sumar.c restar.c multiplicar.c dividir.c -o calculadora
+clean: 
+    rm calculadora
+    
